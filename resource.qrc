@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>GUI/sky.png</file>
+    </qresource>
+</RCC>

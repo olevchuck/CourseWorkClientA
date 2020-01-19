@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>GUI/space.jpg</file>
+        <file>GUI/backspace.png</file>
+    </qresource>
+</RCC>
