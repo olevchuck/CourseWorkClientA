@@ -13,6 +13,11 @@ namespace GUI
        ui(new Ui::CEnterWindow)
    {
        ui->setupUi(this);
+       QPixmap bkgnd(":/GUI/sky.png");
+       bkgnd = bkgnd.scaled(this->size(), Qt::IgnoreAspectRatio);
+       QPalette palette;
+       palette.setBrush(QPalette::Background, bkgnd);
+       this->setPalette(palette);
    }
 
    CEnterWindow::~CEnterWindow()

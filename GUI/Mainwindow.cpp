@@ -1,6 +1,7 @@
 #include "Mainwindow.h"
 #include "ui_mainwindow.h"
 
+
 namespace GUI
 {
    CMainWindow::CMainWindow(QWidget *parent) :
@@ -8,6 +9,11 @@ namespace GUI
        ui(new Ui::CMainWindow)
    {
        ui->setupUi(this);
+       QPixmap bkgnd(":/GUI/fon.jpg");
+       bkgnd = bkgnd.scaled(this->size(), Qt::IgnoreAspectRatio);
+       QPalette palette;
+       palette.setBrush(QPalette::Background, bkgnd);
+       this->setPalette(palette);
    }
 
    CMainWindow::~CMainWindow()

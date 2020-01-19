@@ -17,10 +17,28 @@
    <property name="geometry">
     <rect>
      <x>90</x>
-     <y>70</y>
+     <y>140</y>
      <width>291</width>
      <height>81</height>
     </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Long Shot Cyrillic</family>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButtonSingle {
+background-color: transparent;
+border-image: url(:/GUI/btn2.jpg);
+background: none;
+border: none;
+background-repeat:none;
+color: white;
+}
+
+</string>
    </property>
    <property name="text">
     <string>Single play</string>
@@ -30,13 +48,58 @@
    <property name="geometry">
     <rect>
      <x>90</x>
-     <y>180</y>
+     <y>240</y>
      <width>291</width>
      <height>81</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <family>Long Shot Cyrillic</family>
+     <pointsize>28</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#pushButtonNetwork {
+background-color: transparent;
+border-image: url(:/GUI/btn2.jpg);
+background: none;
+border: none;
+background-repeat:none;
+color: white;
+}
+
+</string>
+   </property>
    <property name="text">
     <string>Network play</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="galcon">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>30</y>
+     <width>271</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Long Shot Cyrillic</family>
+     <pointsize>72</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#galcon {
+	color: white
+}</string>
+   </property>
+   <property name="text">
+    <string>GALCON</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
    </property>
   </widget>
  </widget>

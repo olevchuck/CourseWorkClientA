@@ -10,6 +10,12 @@ namespace GUI
        ui->setupUi(this);
        m_timer.setInterval(1000);
        connect(&m_timer, SIGNAL(timeout()), this, SLOT(slotIncremetTimer()));
+
+       QPixmap bkgnd(":/GUI/sky.png");
+       bkgnd = bkgnd.scaled(this->size(), Qt::IgnoreAspectRatio);
+       QPalette palette;
+       palette.setBrush(QPalette::Background, bkgnd);
+       this->setPalette(palette);
    }
 
    CWaitWindow::~CWaitWindow()

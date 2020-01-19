@@ -34,6 +34,12 @@ namespace GUI
       ui->lineEditMapWidth->setValidator(m_validator);
       ui->lineEditPlanetMaxSize->setValidator(m_validator);
       ui->lineEditPlanetMinSize->setValidator(m_validator);
+
+      QPixmap bkgnd(":/GUI/sky.png");
+      bkgnd = bkgnd.scaled(this->size(), Qt::IgnoreAspectRatio);
+      QPalette palette;
+      palette.setBrush(QPalette::Background, bkgnd);
+      this->setPalette(palette);
    }
 
    CSingleWindow::~CSingleWindow()

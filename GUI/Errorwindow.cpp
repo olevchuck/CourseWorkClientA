@@ -7,6 +7,7 @@ namespace GUI
    CErrorWindow::CErrorWindow(QObject *parent) :
        QObject(parent)
    {
+
    }
 
    void CErrorWindow::Show(const QString & title, const QString & text, bool sync)

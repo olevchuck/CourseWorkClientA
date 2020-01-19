@@ -44,14 +44,20 @@
      <x>10</x>
      <y>0</y>
      <width>381</width>
-     <height>41</height>
+     <height>51</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>Andale Mono</family>
+     <family>Long Shot Cyrillic</family>
      <pointsize>36</pointsize>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+padding-top: 8px;
+font-family: 'Long Shot Cyrillic'
+}</string>
    </property>
    <property name="text">
     <string>Time to start</string>

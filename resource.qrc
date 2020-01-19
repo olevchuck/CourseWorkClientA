@@ -1,5 +1,10 @@
 <RCC>
     <qresource prefix="/">
         <file>GUI/sky.png</file>
+        <file>GUI/button.jpg</file>
+        <file>GUI/btn.jpg</file>
+        <file>GUI/black_btn.png</file>
+        <file>GUI/btn2.jpg</file>
+        <file>GUI/fon.jpg</file>
     </qresource>
 </RCC>

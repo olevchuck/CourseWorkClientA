@@ -12,6 +12,12 @@ namespace GUI
       m_exitButton = new QPushButton("Exit to main menu", this);
       m_exitButton->setGeometry(30, 110, 200, 50);
       connect(m_exitButton, SIGNAL(clicked()), this, SIGNAL(ExitGame()));
+
+      QPixmap bkgnd(":/GUI/sky.png");
+      bkgnd = bkgnd.scaled(this->size(), Qt::IgnoreAspectRatio);
+      QPalette palette;
+      palette.setBrush(QPalette::Background, bkgnd);
+      this->setPalette(palette);
    }
 
 } //Namespace GUI
