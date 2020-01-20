@@ -13,7 +13,7 @@ namespace ServerManagerDecl
    {
       m_connectToServer = false;
       m_ePhaseMessage = CParser::eUnknown;
-      m_timerConfirm.setInterval(1000);
+      m_timerConfirm.setInterval(100000);
       connect(&m_timerConfirm, SIGNAL(timeout()), this, SLOT(slotTimeStartOut()));
    }
 
