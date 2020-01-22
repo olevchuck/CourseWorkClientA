@@ -1,10 +1,5 @@
 #pragma once
 
-/// @file Space.h
-/// @brief CSpace declaration header
-/// @author Dmitriy Kozhevnikov
-/// @date 06-June-2011
-
 #include <vector>
 #include <list>
 

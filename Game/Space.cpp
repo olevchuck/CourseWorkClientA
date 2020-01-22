@@ -1,6 +1,3 @@
-/// @file Space.cpp
-/// @author Dmitriy Kozhevnikov
-/// @date 06-06-2011
 
 #include "Planet.h"
 #include "Fleet.h"

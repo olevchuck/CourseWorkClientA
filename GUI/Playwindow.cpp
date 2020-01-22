@@ -195,22 +195,7 @@ namespace GUI
       }
       else if (m_mouseClick == EDouble)
       {
-         if (m_mouseState == EPlanetsSelected &&
-               ((m_mousePressedX != m_mouseCurrentX) || (m_mousePressedY != m_mouseCurrentY)))
-         {
-            Message::CMessageStepPlayerPtr mess = m_view->Target(m_mousePressedX, m_mousePressedY);
-            if (mess->m_percent != 0 && !mess->m_startPlanetID.empty())
-            {
-               emit SendStepPlayer(mess);
-            }
-            m_view->Selection(m_mousePressedX, m_mousePressedY, m_mouseCurrentX, m_mouseCurrentY);
-            m_mouseState = ENotSelected;
-         }
-         else
-         {
-            m_view->CheckAll(m_mouseCurrentX, m_mouseCurrentY);
-            m_mouseState = EPlanetsSelected;
-         }
+
       }
       else
       {

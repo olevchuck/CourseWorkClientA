@@ -1,6 +1,3 @@
-/// @file Fleet.cpp
-/// @author Dmitriy Kozhevnikov
-/// @date 06-06-2011
 
 #include "Fleet.h"
 #include "Planet.h"

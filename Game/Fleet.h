@@ -1,18 +1,10 @@
 #pragma once
 
-/// @file Fleet.h
-/// @brief CFleet declaration header
-/// @author Dmitriy Kozhevnikov
-/// @date 06-June-2011
-
 class CPlayer;
 
 namespace Game
 {
    class CPlanet;
-
-   /// @class CFleet
-   /// @brief Fleet management class
 
    class CFleet
    {

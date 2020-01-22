@@ -1,10 +1,5 @@
 #pragma once
 
-/// @file Planet.h
-/// @brief CPlanet declaration header
-/// @author Dmitriy Kozhevnikov
-/// @date 06-June-2011
-
 #include "Player.h"
 
 namespace Game

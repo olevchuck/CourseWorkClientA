@@ -1,6 +1,3 @@
-/// @file Game.cpp
-/// @author Dmitriy Kozhevnikov
-/// @date 06-06-2011
 
 #include <QDebug>
 
